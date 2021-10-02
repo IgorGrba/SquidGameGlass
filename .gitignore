@@ -35,3 +35,4 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Assets/RayFire/Plugins/Ios/libRF_CNative_ios.a

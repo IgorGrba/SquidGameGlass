@@ -1,0 +1,17 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class TriggerParticles : MonoBehaviour
+{
+    [SerializeField] private GameObject glow1;
+
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            glow1.SetActive(true);
+        }
+    }
+}
